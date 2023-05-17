@@ -12,6 +12,7 @@ public class TestTest : MonoBehaviour
 
 	void Start ()
 	{
+		//补充这部分内容
 		btnStartRecord.onClick.AddListener (() => {
 			MicroPhoneInput.getInstance ().StartRecord ();
 		});
